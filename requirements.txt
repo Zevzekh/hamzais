@@ -1,0 +1,17 @@
+# Extension Management Application
+
+# Storage: the Parquet databases and their schemas
+pyarrow>=14.0
+pandas>=2.0
+
+# User interface
+streamlit>=1.30
+
+# Cross process write locking (a fallback lock is used when this is absent)
+filelock>=3.12
+
+# Optional: only needed when the export format is configured as xlsx
+openpyxl>=3.1
+
+# Tests
+pytest>=7.4

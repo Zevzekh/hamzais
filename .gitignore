@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Runtime data: business databases, documents and exports are never committed
+data/active/*.parquet
+data/completed/*.parquet
+data/deleted/*.parquet
+data/*.parquet
+data/backup/
+data/documents/
+data/exports/
+data/qvd/
+*.tmp.parquet
+*.lock
+
+# Logs
+logs/*.log
+logs/*.log.*
